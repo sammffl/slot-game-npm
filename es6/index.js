@@ -91,7 +91,7 @@ export default class SlotGame {
             result = prizeIndexes.join('_');
         } else {
             result = self._getRandomValueOfArray(awardList[prize]);
-            slotArr.splice(result.match(/\d/)[0] - 1, 1);
+            slotArr.splice(result.match(/\d{1,2}/)[0] - 1, 1);
             result = result.replace(/X/, self._getRandomValueOfArray(slotArr));
         }
         return result;
