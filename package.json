@@ -1,6 +1,6 @@
 {
   "name": "slot-game-js",
-  "version": "0.3.0",
+  "version": "0.3.2",
   "description": "老虎机",
   "main": "index.js",
   "scripts": {},
